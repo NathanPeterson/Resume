@@ -9,7 +9,6 @@ header{
   width: 75%;
 }
 section{
-  /*margin: 0px 25% 200px 25%;*/
   border: solid;
   width: 75%;
   height: auto;
@@ -88,4 +87,8 @@ section h2{
 #education td{
   padding-left: 20px;
   border: solid;
+}
+
+#education table{
+  margin-right: 15px;
 }
