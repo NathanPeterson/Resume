@@ -63,6 +63,7 @@ section h2{
 
 .contact{
   padding-left: 20px;
+  display: inline-block;
 }
 
 .websites{
@@ -76,4 +77,6 @@ section h2{
   padding-left: 30px;
   margin-left: 15%;
   border-left: solid 3px;
+  display: inline-block;
+  padding-right:20px;
 }
