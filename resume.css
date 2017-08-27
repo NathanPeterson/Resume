@@ -80,3 +80,12 @@ section h2{
   display: inline-block;
   padding-right:20px;
 }
+
+#about{
+  word-wrap: break-word;
+}
+
+#education td{
+  padding-left: 20px;
+  border: solid;
+}
