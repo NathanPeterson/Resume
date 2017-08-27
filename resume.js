@@ -3,7 +3,7 @@ var currentTab = 'about';
 $(document).ready(function(){
   showTabContent(currentTab);
 
-  $('li').click(function() {
+  $('.nav li').click(function() {
     hideTabContent(currentTab);
     var idName = this.id.split('-').pop();
     showTabContent(idName);
