@@ -3,12 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Resume</title>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="resume.js"></script>
-    <link rel="stylesheet" href="resume.css">
   </head>
   <body>
+    <!-- Contains Title of Page and Navigation -->
     <header>
       <div class="">
         <h1>Nathan Alexander Peterson</h1>
@@ -18,20 +15,22 @@
           <li id="tab-about"><a href="#about">About</a></li>
           <li id="tab-education"><a href="#education">Education</a></li>
           <li id="tab-workExperience"><a href="#workExperience">Work Experience</a></li>
-          <li id="tab-projects"><a href="#projects">Projects</a></li>
           <li id="tab-skills"><a href="#skills">Skills</a></li>
           <li id="tab-other"><a href="#other">Additional Info</a></li>
           <li id="tab-pdf"><a href="#pdf">PDF Version</a></li>
+          <li id="tab-footer"><a href="#footer">Contact Information</a></li>
         </ul>
       </div>
     </header>
+    <!-- END of Header -->
 
+    <!-- Area Where content will be found -->
     <section>
       <!-- About Section -->
       <div class="hidden" id="about">
         <h2>About Me</h2>
-        <img src="./assets/headshot.png" alt="Headshot" height="200px" width="200px" style="border-radius: 50%; float: left; margin-right: 50px;">
-        <p>&nbsp&nbsp&nbsp&nbsp My name is Nathan Peterson. I am currently studying at <a href="http://cms.bsu.edu/academics/collegesanddepartments/history/about/mission">Ball State University</a>
+        <img src="http://www.clker.com/cliparts/5/9/4/c/12198090531909861341man%20silhouette.svg.hi.png" alt="Headshot" height="200px" width="200px" alt="Headshot Image">
+        <p>&nbsp&nbsp&nbsp&nbsp My name is Nathan Peterson. I am currently studying at <a target="_blank" href="http://cms.bsu.edu/academics/collegesanddepartments/history/about/mission">Ball State University</a>
           where I am currently finishing my last semester as a Computer Science Major. During this last semester I will be finishing up my CS electives that are required to graduate.
           My electives include Web Programming, Data Analytics, and an Independent study. At the end of my semester I expect to graduate with a 3.6 overall GPA.<br><br>
           &nbsp&nbsp&nbsp&nbsp My independent study will focus on learning <em>Deep Learning</em> by utilizing Google's Cloud Video Inteligence API. Currently investigating possible paths I can take after I understand the technology.<br><br>
@@ -51,7 +50,7 @@
       <!-- Education Section -->
       <div class="hidden" id="education">
         <h2>Education</h2>
-        <ol style="display:inline-block">
+        <ol>
           <li>
             <p>
                 <h3>Bachelors of Science: Computer Science</h3>
@@ -77,12 +76,12 @@
           </li>
         </ol>
 
-        <div class="courseWork" style="display:inline-block; float: right;">
+        <div class="courseWork">
           <table>
             <thead>
               <th colspan="2">Courses Work</th>
             </thead>
-            <tbody style="border:solid 2px;">
+            <tbody>
               <tr>
                 <td>
                   Algorithms
@@ -402,20 +401,20 @@
       <!-- Skills Section -->
       <div class="hidden" id="skills">
         <h2>Skill Summary</h2>
-        <table style="width:100%;">
+        <table>
           <thead>
             <tr>
               <th colspan="2">Programming Related</th>
               <th colspan="2">Other Skills</th>
             </tr>
-            <tr style="">
+            <tr>
               <th>Skill</th>
               <th>Skill Level</th>
               <th>Skill</th>
               <th>Skill Level</th>
             </tr>
               </thead>
-          <tbody style="text-align:center;">
+          <tbody>
             <tr>
               <td>Java</td>
               <td>Intermediate</td>
@@ -534,14 +533,14 @@
       <!-- Other Section -->
       <div class="hidden" id="other">
         <h2>Additional Information</h2>
-        <table style="width:100%; margin-top: 100px;">
+        <table>
           <thead>
             <th><u>Accomplishments</u></th>
             <th><u>Volunteer Work</u></th>
           </thead>
           <tbody>
             <tr>
-              <td style="width: 50%">
+              <td>
                 <ul>
                   <li>Student Ambassador Program</li>
                   <li>Ivy Tech's Dean's List</li>
@@ -573,16 +572,14 @@
 
       <!-- PDF Section -->
       <div class="hidden" id="pdf">
-        <h2><a target="_blank" href="./assets/resume.pdf">PDF Version Of Resume</a></h2>
-        <object data="./assets/resume.pdf" type="application/pdf" style="height: 475px; width: 100%;">
-          <param name="view" value="fitW"
-          <p>Link to PDF Version<a href="./assets/resume.pdf">to the PDF!</a></p>
-        </object>
+        <h2><a target="_blank" href="https://github.com/NathanPeterson/Resume/blob/master/assets/resume.pdf">PDF Version Of Resume</a></h2>
       </div>
       <!-- END PDF Section -->
     </section>
+    <!-- END of Area Where content will be found -->
 
-    <footer>
+    <!-- Display Contact Information -->
+    <footer id="footer">
       <div class="contact">
         <p>
           Email: <a href="mailto:nalexpeterson@gmail.com">nalexpeterson@gmail.com</a><br/>
@@ -605,6 +602,6 @@
             Attica IN,&nbsp&nbsp47918</p>
       </div>
     </footer>
-
+    <!-- END of Display Contact Information -->
   </body>
 </html>
